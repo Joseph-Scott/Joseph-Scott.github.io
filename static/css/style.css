@@ -525,61 +525,7 @@ a.m-btn-01:active {
   height: 100vh;
 }
 
-/*===================================
-  Home Banner 01
-====================================== */
-.particles-box {
-  height: 100vh;
-  background-position: left center;
-}
-.particles-box .container {
-  position: relative;
-  min-height: 100%;
-}
-.particles-box .banner-center-text {
-  position: absolute;
-  top: 50%;
-  left: 15px;
-  right: 15px; 
-  z-index: 1;
-  -webkit-transform: translatey(-50%);
-     -moz-transform: translatey(-50%);
-       -o-transform: translatey(-50%);
-          transform: translatey(-50%);
-}
 
-.particles-box .banner-center-text h1 {
-	color: #fff;
-	font-size: 65px;
-	margin: 0;
-	padding: 0 0 20px 0;
-	font-weight: 800;
-}
-.particles-box .banner-center-text p {
-	display: inline-block;
-	vertical-align: top;
-	padding: 8px 15px;
-	color: #fff;
-}
-
-.particles-box .particles-js-canvas-el {
-	background: rgba(0,0,0,0.8);
-	position: absolute;
-	top: 0;
-	left: 0;
-	right: 0;
-	bottom: 0;
-}
-
-@media (max-width: 991px){
-  .particles-box {
-    height: 120vh;
-  }
-
-  .fixed-header-body .particles-box {
-    height: 100vh;
-  }
-}
 
 
 /*-------------------------------------------------------*/
@@ -625,6 +571,11 @@ a.m-btn-01:active {
 /*-------------------------------------------------------*/
   /* Portfolio */
 /*-------------------------------------------------------*/
+
+.my-work .section-title .h4 {
+	padding-bottom: 100px;
+}
+
 .portfolio-box .filter {
 	text-align: center;
 	padding-bottom: 60px;
