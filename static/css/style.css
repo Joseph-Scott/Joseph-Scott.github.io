@@ -557,6 +557,49 @@ a.m-btn-01:active {
 	}
 }
 
+/*-------------------------------------------------------*/
+  /* Skills Box*/
+/*-------------------------------------------------------*/
+.skill-box {
+	text-align: center;
+	background: #fff;
+	border-radius: 10px;
+	padding:40px 20px;
+	box-shadow: rgba(58,78,95,0.2) 0 10px 16px, rgba(58,78,95,0.05) 0 -5px 16px;
+	width: 100%;
+	float: left;
+}
+.skill-box .sb-icon {
+	width: 80px;
+	height: 80px;
+	line-height: 60px;
+	text-align: center;
+	display: inline-block;
+	border-radius: 50%;
+}
+.skill-box .sb-icon i {
+	font-size: 40px;
+	line-height: 80px;
+	color: #fff;
+}
+.skill-box h4 {
+	font-size: 22px;
+	font-weight: 600;
+	margin: 0;
+	padding: 25px 0 10px;
+}
+.skill-box p {
+	font-size: 15px;
+	margin: 0;
+	line-height: 26px;
+}
+
+@media (max-width: 767px){
+	.skill-box{
+		margin: 15px 0;
+	}
+}
+
 
 
 /*-------------------------------------------------------*/
