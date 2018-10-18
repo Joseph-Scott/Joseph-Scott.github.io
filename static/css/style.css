@@ -670,20 +670,7 @@ a.m-btn-01:active {
 	bottom: 10px;
 }
 
-@media (max-width: 767px){
-	.portfolio-box .filter{
-		padding-bottom: 30px;
-	}
-	.portfolio-box .filter button {
-		margin: 0 5px;
-	}
-	.portfolio-col:hover .hover{
-		padding: 10px;
-	}
-	.portfolio-col .hover h4{
-		font-size: 16px;
-	}
-}
+
 
 
 
