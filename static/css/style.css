@@ -671,6 +671,7 @@ a.m-btn-01:active {
 }
 
 .portfolio-col .row {
+	text-color: black;
 	text-align: center;
 	text-size: 2em;
 	margin-top: 30px;
