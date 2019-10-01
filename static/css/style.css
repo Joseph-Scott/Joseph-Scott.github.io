@@ -670,7 +670,8 @@ a.m-btn-01:active {
 	bottom: 10px;
 }
 
-.portfolio-col p {
+.portfolio-col .row {
+	text-align: center;
 	padding: 10px;
 }
 
