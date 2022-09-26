@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a87c483f.css",
+    "main.js": "/static/js/main.19bba5e0.js",
+    "static/media/yelp-camp.png": "/static/media/yelp-camp.9cb73e9b20eca010ef82.png",
+    "static/media/keeper.png": "/static/media/keeper.92be54121cb3b8595ddf.png",
+    "static/media/casual-headshot.jpg": "/static/media/casual-headshot.65e05a5fda4c5dc21748.jpg",
+    "static/media/color-game.png": "/static/media/color-game.961a9f7a8662341b86de.png",
+    "static/media/react.png": "/static/media/react.0cf951a69d8e58f83f9d.png",
+    "static/media/node.png": "/static/media/node.952a9ea986dcfa5229ad.png",
+    "static/media/css3.png": "/static/media/css3.86ea90919c3f33faa467.png",
+    "static/media/javascript.png": "/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
+    "index.html": "/index.html",
+    "main.a87c483f.css.map": "/static/css/main.a87c483f.css.map",
+    "main.19bba5e0.js.map": "/static/js/main.19bba5e0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a87c483f.css",
+    "static/js/main.19bba5e0.js"
+  ]
+}
