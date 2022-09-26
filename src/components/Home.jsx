@@ -15,7 +15,7 @@ const Home = () => {
           <Image src={Headshot} className="rounded-4 d-block mx-lg-auto img-fluid" alt="Headshot" loading="lazy" id="headshot"/>
         </Col>
         <Col md={6} lg={6} xxl={6}>
-          <h1 className="display-5 fw-bold lh-1 mb-3">hi, I'm Joe</h1>
+          <h1 className="display-5 fw-bold lh-1 mb-3">Test</h1>
           <p>I'm a front end software developer living in the Atlanta, 
             Georgia area. I attended Penn State University and have a degree in Human Development and Family Studies. 
             I have been working in the social services field for several years because I have a passion for understanding 
