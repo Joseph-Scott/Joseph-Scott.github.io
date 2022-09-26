@@ -1,0 +1,17 @@
+body {
+  background-color: black;
+  color: white;
+}
+
+.nav-link {
+  color: white;
+}
+
+#headshot {
+  max-width: 450px;
+}
+
+.card {
+  background-color: black;
+  color: white;
+}
