@@ -29,8 +29,8 @@ const Projects = () => {
                 DOM manipulation and event handling.
               </Card.Text>
               <Card.Footer className="gap-2 d-md-flex justify-content-md-start">
-                <Button variant="outline-light btn-lg px-4">demo</Button>
-                <Button variant="outline-light btn-lg px-4">github</Button>
+                <Button href="https://starlit-crisp-4e857e.netlify.app" variant="outline-light btn-lg px-4">demo</Button>
+                <Button href="https://github.com/Joseph-Scott/Color-Game" variant="outline-light btn-lg px-4">github</Button>
               </Card.Footer>
             </Card.Body>
           </Card>
@@ -45,8 +45,8 @@ const Projects = () => {
                 using props, hooks, conditional rendering, managing complex state, and managing component trees.
               </Card.Text>
               <Card.Footer className="gap-2 d-md-flex justify-content-md-start">
-                <Button variant="outline-light btn-lg px-4">demo</Button>
-                <Button variant="outline-light btn-lg px-4">github</Button>
+                <Button href="https://iridescent-conkies-8183cd.netlify.app" variant="outline-light btn-lg px-4">demo</Button>
+                <Button href="https://github.com/Joseph-Scott/Keeper-App" variant="outline-light btn-lg px-4">github</Button>
               </Card.Footer>
             </Card.Body>
           </Card>
@@ -57,13 +57,14 @@ const Projects = () => {
             <Card.Body>
               <Card.Title>YelpCamp</Card.Title>
               <Card.Text>
-                Skills used: HTML, Javascript, CSS and Bootstrap for styling, Flash messaging, 
-                Node.js with Express.js for handling routes and views (with EJS templating), 
-                Passport for authentication, and MongoDB for database with Mongoose for data modeling
+                YelpCamp is a Yelp-like reviews site for Georgia campgrounds that uses HTML, Javascript,
+                CSS and Bootstrap for styling, Flash messaging, Node.js with Express.js for handling routes 
+                and views (with EJS templating), Passport for authentication, and MongoDB for database with 
+                Mongoose for data modeling
               </Card.Text>
               <Card.Footer className="gap-2 d-md-flex justify-content-md-start">
-                <Button variant="outline-light btn-lg px-4">demo</Button>
-                <Button variant="outline-light btn-lg px-4">github</Button>
+                <Button href="https://yelp-camp-joe.herokuapp.com/" variant="outline-light btn-lg px-4">demo</Button>
+                <Button href="https://github.com/Joseph-Scott/YelpCamp" variant="outline-light btn-lg px-4">github</Button>
               </Card.Footer>
             </Card.Body>
           </Card>
