@@ -14,71 +14,67 @@ import REact from '../img/react.png';
 const Skills = () => {
   return (
     <Container className=" px-4 py-4 my-5">
+      <Row>
+        <h1 className="display-5 fw-bold lh-1 mb-3">skills</h1>
+        <p>|| these are the main technologies I've worked with</p>
+      </Row>
       <Row xs={1} md={2} className="g-6">
+        <Col>
+          <Card>
+            <Card.Img variant="top" src="../img/javascript.png" />
+            <Card.Body>
+              <Card.Text>
+                JavaScript
+              </Card.Text>
+            </Card.Body>
+          </Card>
+        </Col>
         <Col>
           <Card>
             <Card.Img variant="top" src="holder.js/100px160" />
             <Card.Body>
-              <Card.Title>Card title</Card.Title>
               <Card.Text>
-                This is a longer card with supporting text below as a natural
-                lead-in to additional content. This content is a little bit
-                longer.
+                HTML
               </Card.Text>
             </Card.Body>
           </Card>
+        </Col>
+        <Col>
           <Card>
             <Card.Img variant="top" src="holder.js/100px160" />
             <Card.Body>
-              <Card.Title>Card title</Card.Title>
               <Card.Text>
-                This is a longer card with supporting text below as a natural
-                lead-in to additional content. This content is a little bit
-                longer.
+                CSS
               </Card.Text>
             </Card.Body>
           </Card>
+        </Col>
+        <Col>
           <Card>
             <Card.Img variant="top" src="holder.js/100px160" />
             <Card.Body>
-              <Card.Title>Card title</Card.Title>
               <Card.Text>
-                This is a longer card with supporting text below as a natural
-                lead-in to additional content. This content is a little bit
-                longer.
+                Git
               </Card.Text>
             </Card.Body>
           </Card>
+        </Col>
+        <Col>
           <Card>
             <Card.Img variant="top" src="holder.js/100px160" />
             <Card.Body>
-              <Card.Title>Card title</Card.Title>
               <Card.Text>
-                This is a longer card with supporting text below as a natural
-                lead-in to additional content. This content is a little bit
-                longer.
+                Node
               </Card.Text>
             </Card.Body>
           </Card>
+        </Col>
+        <Col>
           <Card>
             <Card.Img variant="top" src="holder.js/100px160" />
             <Card.Body>
-              <Card.Title>Card title</Card.Title>
               <Card.Text>
-                This is a longer card with supporting text below as a natural
-                lead-in to additional content. This content is a little bit
-                longer.
-              </Card.Text>
-            </Card.Body>
-          </Card>
-          <Card>
-            <Card.Img variant="top" src="holder.js/100px160" />
-            <Card.Body>
-              <Card.Title>Card title</Card.Title>
-              <Card.Text>
-                This is a longer card with supporting text below as a natural
-                lead-in to additional content. This content is a little bit
-                longer.
+                React
               </Card.Text>
             </Card.Body>
           </Card>
