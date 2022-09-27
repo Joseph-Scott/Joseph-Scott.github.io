@@ -14,42 +14,73 @@ import REact from '../img/react.png';
 const Skills = () => {
   return (
     <Container className=" px-4 py-4 my-5">
-      <Row>
-        <h1 className="display-5 fw-bold lh-1 mb-3">skills</h1>
-        <p>|| these are the main technologies I've worked with</p>
-      </Row>
-      <Row className="justify-content-center">
+      <Row xs={1} md={2} className="g-6">
         <Col>
-          <Card className="bg-dark" id="skills">
-            <Card.Img src={JavaScript} alt="Card image" />
+          <Card>
+            <Card.Img variant="top" src="holder.js/100px160" />
+            <Card.Body>
+              <Card.Title>Card title</Card.Title>
+              <Card.Text>
+                This is a longer card with supporting text below as a natural
+                lead-in to additional content. This content is a little bit
+                longer.
+              </Card.Text>
+            </Card.Body>
           </Card>
-          <h5>Javascript</h5>
-        </Col>
-        <Col>
-          <Card className="bg-dark" id="skills">
-            <Card.Img src={Html5} alt="Card image" />
+          <Card>
+            <Card.Img variant="top" src="holder.js/100px160" />
+            <Card.Body>
+              <Card.Title>Card title</Card.Title>
+              <Card.Text>
+                This is a longer card with supporting text below as a natural
+                lead-in to additional content. This content is a little bit
+                longer.
+              </Card.Text>
+            </Card.Body>
           </Card>
-        </Col>
-        <Col>
-          <Card className="bg-dark" id="skills">
-            <Card.Img src={Css3} alt="Card image" />
+          <Card>
+            <Card.Img variant="top" src="holder.js/100px160" />
+            <Card.Body>
+              <Card.Title>Card title</Card.Title>
+              <Card.Text>
+                This is a longer card with supporting text below as a natural
+                lead-in to additional content. This content is a little bit
+                longer.
+              </Card.Text>
+            </Card.Body>
           </Card>
-        </Col>
-      </Row>
-      <Row className="justify-content-center">
-        <Col>
-          <Card className="bg-dark" id="skills">
-            <Card.Img src={GIt} alt="Card image" />
+          <Card>
+            <Card.Img variant="top" src="holder.js/100px160" />
+            <Card.Body>
+              <Card.Title>Card title</Card.Title>
+              <Card.Text>
+                This is a longer card with supporting text below as a natural
+                lead-in to additional content. This content is a little bit
+                longer.
+              </Card.Text>
+            </Card.Body>
           </Card>
-        </Col>
-        <Col>
-          <Card className="bg-dark" id="skills">
-            <Card.Img src={NOde} alt="Card image" />
+          <Card>
+            <Card.Img variant="top" src="holder.js/100px160" />
+            <Card.Body>
+              <Card.Title>Card title</Card.Title>
+              <Card.Text>
+                This is a longer card with supporting text below as a natural
+                lead-in to additional content. This content is a little bit
+                longer.
+              </Card.Text>
+            </Card.Body>
           </Card>
-        </Col>
-        <Col>
-          <Card className="bg-dark" id="skills">
-            <Card.Img src={REact} alt="Card image" />
+          <Card>
+            <Card.Img variant="top" src="holder.js/100px160" />
+            <Card.Body>
+              <Card.Title>Card title</Card.Title>
+              <Card.Text>
+                This is a longer card with supporting text below as a natural
+                lead-in to additional content. This content is a little bit
+                longer.
+              </Card.Text>
+            </Card.Body>
           </Card>
         </Col>
       </Row>
