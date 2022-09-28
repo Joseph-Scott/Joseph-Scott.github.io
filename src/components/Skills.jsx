@@ -2,7 +2,7 @@ import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import Card from 'react-bootstrap/Card';
+import Image from 'react-bootstrap/Image';
 import JavaScript from '../img/javascript.png';
 import Html5 from '../img/html5.png';
 import Css3 from '../img/css3.png';
@@ -14,71 +14,35 @@ import '../index.css';
 
 const Skills = () => {
   return (
-    <Container className="px-4 py-4 my-5">
+    <Container className="px-4 py-4 my-2">
       <Row className="my-5">
         <h1 className="display-5 fw-bold lh-1 mb-3">skills</h1>
         <p className="fw-bold">|| these are the main technologies I've worked with</p>
       </Row>
-      <Row className="row-cols-3">
+      <Row sm={2} md={3} lg={3} className="">
         <Col>
-          <Card className="h-100">
-            <Card.Img className="" variant="top" src={JavaScript} />
-            <Card.Body>
-              <Card.Text className="">
-                JAVASCRIPT
-              </Card.Text>
-            </Card.Body>
-          </Card>
+          <Image className="img-fluid rounded mx-auto d-block h-50" src={JavaScript} />
+          <h5 className="d-flex justify-content-center pt-4">JAVASCRIPT</h5>
         </Col>
         <Col>
-          <Card className="h-100">
-            <Card.Img variant="top" src={Html5} />
-            <Card.Body>
-              <Card.Text>
-                HTML
-              </Card.Text>
-            </Card.Body>
-          </Card>
+          <Image className="img-fluid rounded mx-auto d-block h-50" src={Html5} />
+          <h5 className="d-flex justify-content-center pt-4">HTML</h5>
         </Col>
         <Col>
-          <Card className="h-100">
-            <Card.Img variant="top" src={Css3} />
-            <Card.Body>
-              <Card.Text>
-                CSS
-              </Card.Text>
-            </Card.Body>
-          </Card>
+          <Image className="img-fluid rounded mx-auto d-block h-50" src={Css3} />
+          <h5 className="d-flex justify-content-center pt-4">CSS</h5>
         </Col>
         <Col>
-          <Card className="h-100">
-            <Card.Img variant="top" src={Github} />
-            <Card.Body>
-              <Card.Text>
-                GITHUB
-              </Card.Text>
-            </Card.Body>
-          </Card>
+          <Image className="img-fluid rounded mx-auto d-block h-50" src={Github} />
+          <h5 className="d-flex justify-content-center pt-4">GITHUB</h5>
         </Col>
         <Col>
-          <Card className="h-100">
-            <Card.Img variant="top" src={NOde} />
-            <Card.Body>
-              <Card.Text>
-                NODE JS
-              </Card.Text>
-            </Card.Body>
-          </Card>
+          <Image className="img-fluid rounded mx-auto d-block h-50" src={NOde} />
+          <h5 className="d-flex justify-content-center pt-4">NODE JS</h5>
         </Col>
         <Col>
-          <Card className="h-100">
-            <Card.Img variant="top" src={REact} />
-            <Card.Body>
-              <Card.Text>
-                REACT
-              </Card.Text>
-            </Card.Body>
-          </Card>
+          <Image className="img-fluid rounded mx-auto d-block h-50"  src={REact} />
+          <h5 className="d-flex justify-content-center pt-4">REACT</h5>
         </Col>
       </Row>
     </Container>
