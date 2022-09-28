@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.c8445ee3.css",
-    "main.js": "/static/js/main.b485a576.js",
+    "main.css": "/static/css/main.5f2da456.css",
+    "main.js": "/static/js/main.e3198085.js",
     "static/media/yelp-camp.png": "/static/media/yelp-camp.9cb73e9b20eca010ef82.png",
     "static/media/keeper.png": "/static/media/keeper.92be54121cb3b8595ddf.png",
     "static/media/casual-headshot(1).jpg": "/static/media/casual-headshot(1).45ae6f376e52cb4502f6.jpg",
@@ -11,11 +11,11 @@
     "static/media/github.png": "/static/media/github.3b9e32903aa89111875d.png",
     "static/media/javascript.png": "/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/index.html",
-    "main.c8445ee3.css.map": "/static/css/main.c8445ee3.css.map",
-    "main.b485a576.js.map": "/static/js/main.b485a576.js.map"
+    "main.5f2da456.css.map": "/static/css/main.5f2da456.css.map",
+    "main.e3198085.js.map": "/static/js/main.e3198085.js.map"
   },
   "entrypoints": [
-    "static/css/main.c8445ee3.css",
-    "static/js/main.b485a576.js"
+    "static/css/main.5f2da456.css",
+    "static/js/main.e3198085.js"
   ]
 }
