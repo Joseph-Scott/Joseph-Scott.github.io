@@ -20,7 +20,7 @@ const Skills = () => {
         <h1 className="display-5 fw-bold lh-1 mb-3">skills</h1>
         <p className="fw-bold">|| these are the main technologies I've worked with</p>
       </Row>
-      <Row sm={2} md={3} lg={3} className="">
+      <Row className="row-cols-1 row-cols-sm-2 row-cols-md-3">
         <Col>
           <Card className="h-100">
             <Card.Body>

@@ -4,14 +4,14 @@ import Image from 'react-bootstrap/Image';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import Headshot from '../img/casual-headshot.jpg';
+import Headshot from '../img/casual-headshot(1).jpg';
 import '../index.css';
 
 const Home = () => {
   return (
     <Container className="col-xxl-8 px-4 py-5 my-5">
       <Row className="align-items-center g-5 py-5">
-        <Col col={10} sm={8} lg={6} >
+        <Col col={10} sm={4} lg={6} >
           <Image src={Headshot} className="rounded-4 d-block mx-lg-auto img-fluid" alt="Headshot" loading="lazy" id="headshot"/>
         </Col>
         <Col md={6} lg={6} xxl={6}>
