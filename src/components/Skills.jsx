@@ -1,5 +1,6 @@
 import React from 'react';
 import Container from 'react-bootstrap/Container';
+import Card from 'react-bootstrap/Card';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Image from 'react-bootstrap/Image';
@@ -21,28 +22,52 @@ const Skills = () => {
       </Row>
       <Row sm={2} md={3} lg={3} className="">
         <Col>
-          <Image className="img-fluid rounded mx-auto d-block h-50" src={JavaScript} />
-          <h5 className="d-flex justify-content-center pt-4">JAVASCRIPT</h5>
+          <Card className="h-100">
+            <Card.Body>
+              <Image className="img-fluid rounded mx-auto d-block" src={JavaScript} />
+              <h5 className="d-flex justify-content-center pt-4">JAVASCRIPT</h5>
+            </Card.Body>
+          </Card>
         </Col>
         <Col>
-          <Image className="img-fluid rounded mx-auto d-block h-50" src={Html5} />
-          <h5 className="d-flex justify-content-center pt-4">HTML</h5>
+          <Card className="h-100">
+            <Card.Body>
+              <Image className="img-fluid rounded mx-auto d-block" src={Html5} />
+              <h5 className="d-flex justify-content-center pt-4">HTML</h5>
+            </Card.Body>
+          </Card>
         </Col>
         <Col>
-          <Image className="img-fluid rounded mx-auto d-block h-50" src={Css3} />
-          <h5 className="d-flex justify-content-center pt-4">CSS</h5>
+          <Card className="h-100">
+            <Card.Body>
+              <Image className="img-fluid rounded mx-auto d-block" src={Css3} />
+              <h5 className="d-flex justify-content-center pt-4">CSS</h5>
+            </Card.Body>
+          </Card>
         </Col>
         <Col>
-          <Image className="img-fluid rounded mx-auto d-block h-50" src={Github} />
-          <h5 className="d-flex justify-content-center pt-4">GITHUB</h5>
+          <Card className="h-100">
+            <Card.Body>
+              <Image className="img-fluid rounded mx-auto d-block" src={Github} />
+              <h5 className="d-flex justify-content-center pt-4">GITHUB</h5>
+            </Card.Body>
+          </Card>
         </Col>
         <Col>
-          <Image className="img-fluid rounded mx-auto d-block h-50" src={NOde} />
-          <h5 className="d-flex justify-content-center pt-4">NODE JS</h5>
+          <Card className="h-100">
+            <Card.Body>
+              <Image className="img-fluid rounded mx-auto d-block" src={NOde} />
+              <h5 className="d-flex justify-content-center pt-4">NODE JS</h5>
+            </Card.Body>
+          </Card>
         </Col>
         <Col>
-          <Image className="img-fluid rounded mx-auto d-block h-50"  src={REact} />
-          <h5 className="d-flex justify-content-center pt-4">REACT</h5>
+          <Card className="h-100">
+            <Card.Body>
+              <Image className="img-fluid rounded mx-auto d-block"  src={REact} />
+              <h5 className="d-flex justify-content-center pt-4">REACT</h5>
+            </Card.Body>
+          </Card>
         </Col>
       </Row>
     </Container>
