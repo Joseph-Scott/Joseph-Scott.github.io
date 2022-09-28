@@ -13,7 +13,6 @@ const Navigation = () => {
             <Nav.Link href="#scrollspyHeading1">home</Nav.Link>
             <Nav.Link href="/skills">skills</Nav.Link>
             <Nav.Link href="/projects">projects</Nav.Link>
-            <Nav.Link href="/contact">contact</Nav.Link>
           </Nav>
         </Container>
       </Navbar>

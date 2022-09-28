@@ -6,32 +6,33 @@ import Card from 'react-bootstrap/Card';
 import JavaScript from '../img/javascript.png';
 import Html5 from '../img/html5.png';
 import Css3 from '../img/css3.png';
-import GIt from '../img/git.png';
+import Github from '../img/github.png';
 import NOde from '../img/node.png';
 import REact from '../img/react.png';
+import '../index.css';
 
 
 const Skills = () => {
   return (
-    <Container className=" px-4 py-4 my-5">
-      <Row>
+    <Container className="px-4 py-4 my-5">
+      <Row className="my-5">
         <h1 className="display-5 fw-bold lh-1 mb-3">skills</h1>
-        <p>|| these are the main technologies I've worked with</p>
+        <p className="fw-bold">|| these are the main technologies I've worked with</p>
       </Row>
-      <Row xs={1} md={2} className="g-6">
+      <Row className="row-cols-3">
         <Col>
-          <Card>
-            <Card.Img variant="top" src="../img/javascript.png" />
+          <Card className="h-100">
+            <Card.Img className="" variant="top" src={JavaScript} />
             <Card.Body>
-              <Card.Text>
-                JavaScript
+              <Card.Text className="">
+                JAVASCRIPT
               </Card.Text>
             </Card.Body>
           </Card>
         </Col>
         <Col>
-          <Card>
-            <Card.Img variant="top" src="holder.js/100px160" />
+          <Card className="h-100">
+            <Card.Img variant="top" src={Html5} />
             <Card.Body>
               <Card.Text>
                 HTML
@@ -40,8 +41,8 @@ const Skills = () => {
           </Card>
         </Col>
         <Col>
-          <Card>
-            <Card.Img variant="top" src="holder.js/100px160" />
+          <Card className="h-100">
+            <Card.Img variant="top" src={Css3} />
             <Card.Body>
               <Card.Text>
                 CSS
@@ -50,31 +51,31 @@ const Skills = () => {
           </Card>
         </Col>
         <Col>
-          <Card>
-            <Card.Img variant="top" src="holder.js/100px160" />
+          <Card className="h-100">
+            <Card.Img variant="top" src={Github} />
             <Card.Body>
               <Card.Text>
-                Git
+                GITHUB
               </Card.Text>
             </Card.Body>
           </Card>
         </Col>
         <Col>
-          <Card>
-            <Card.Img variant="top" src="holder.js/100px160" />
+          <Card className="h-100">
+            <Card.Img variant="top" src={NOde} />
             <Card.Body>
               <Card.Text>
-                Node
+                NODE JS
               </Card.Text>
             </Card.Body>
           </Card>
         </Col>
         <Col>
-          <Card>
-            <Card.Img variant="top" src="holder.js/100px160" />
+          <Card className="h-100">
+            <Card.Img variant="top" src={REact} />
             <Card.Body>
               <Card.Text>
-                React
+                REACT
               </Card.Text>
             </Card.Body>
           </Card>

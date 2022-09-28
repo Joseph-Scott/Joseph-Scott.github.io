@@ -12,14 +12,14 @@ import '../index.css'
 
 const Projects = () => {
   return (
-    <Container className="col-xxl-8 px-4 py-4 my-5">
-      <Row>
+    <Container className="col-xxl-8 py-4 my-5">
+      <Row className="my-5">
         <h1 className="display-5 fw-bold lh-1 mb-3">projects</h1>
         <p>|| this is some of my work</p>
       </Row>
-      <Row className="row-cols-1 row-cols-md-2 g-3">
+      <Row className="d-flex row-cols-1 row-cols-md-2 g-3 gx-5 gy-5">
         <Col lg={6}>
-          <Card>
+          <Card className="card h-100">
             <Card.Img variant="top" src={ColorGame} />
             <Card.Body>
               <Card.Title>The Great RGB Color Game</Card.Title>
@@ -28,15 +28,15 @@ const Projects = () => {
                 that uses Javascript, HTML, and pure CSS styling in order to demonstrate 
                 DOM manipulation and event handling.
               </Card.Text>
-              <Card.Footer className="gap-2 d-md-flex justify-content-md-start">
-                <Button href="https://starlit-crisp-4e857e.netlify.app" variant="outline-light btn-lg px-4">demo</Button>
-                <Button href="https://github.com/Joseph-Scott/Color-Game" variant="outline-light btn-lg px-4">github</Button>
-              </Card.Footer>
             </Card.Body>
+            <Card.Footer className="gap-2 d-md-flex justify-content-md-start">
+              <Button href="https://starlit-crisp-4e857e.netlify.app" variant="outline-light btn-lg px-4">demo</Button>
+              <Button href="https://github.com/Joseph-Scott/Color-Game" variant="outline-light btn-lg px-4">github</Button>
+            </Card.Footer>
           </Card>
         </Col>
         <Col lg={6}>
-          <Card>
+          <Card className="card h-100">
             <Card.Img variant="top" src={Keeper} />
             <Card.Body>
               <Card.Title>Keeper</Card.Title>
@@ -44,15 +44,15 @@ const Projects = () => {
                 The Keeper app is a single page React app for keeping notes that uses pure CSS styling and focuses on 
                 using props, hooks, conditional rendering, managing complex state, and managing component trees.
               </Card.Text>
-              <Card.Footer className="gap-2 d-md-flex justify-content-md-start">
-                <Button href="https://iridescent-conkies-8183cd.netlify.app" variant="outline-light btn-lg px-4">demo</Button>
-                <Button href="https://github.com/Joseph-Scott/Keeper-App" variant="outline-light btn-lg px-4">github</Button>
-              </Card.Footer>
             </Card.Body>
+            <Card.Footer className="gap-2 d-md-flex justify-content-md-start">
+              <Button href="https://iridescent-conkies-8183cd.netlify.app" variant="outline-light btn-lg px-4">demo</Button>
+              <Button href="https://github.com/Joseph-Scott/Keeper-App" variant="outline-light btn-lg px-4">github</Button>
+            </Card.Footer>
           </Card>
         </Col>
-        <Col lg={6} className="align-self-center">
-          <Card>
+        <Col className="mx-auto">
+          <Card className="card h-100">
             <Card.Img variant="top" src={YelpCamp} />
             <Card.Body>
               <Card.Title>YelpCamp</Card.Title>
