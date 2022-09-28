@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.a87c483f.css",
-    "main.js": "/static/js/main.7c090846.js",
+    "main.css": "/static/css/main.85b006ef.css",
+    "main.js": "/static/js/main.f45d51ca.js",
     "static/media/yelp-camp.png": "/static/media/yelp-camp.9cb73e9b20eca010ef82.png",
     "static/media/keeper.png": "/static/media/keeper.92be54121cb3b8595ddf.png",
     "static/media/casual-headshot.jpg": "/static/media/casual-headshot.65e05a5fda4c5dc21748.jpg",
@@ -9,13 +9,14 @@
     "static/media/react.png": "/static/media/react.0cf951a69d8e58f83f9d.png",
     "static/media/node.png": "/static/media/node.952a9ea986dcfa5229ad.png",
     "static/media/css3.png": "/static/media/css3.86ea90919c3f33faa467.png",
+    "static/media/github.png": "/static/media/github.3b9e32903aa89111875d.png",
     "static/media/javascript.png": "/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/index.html",
-    "main.a87c483f.css.map": "/static/css/main.a87c483f.css.map",
-    "main.7c090846.js.map": "/static/js/main.7c090846.js.map"
+    "main.85b006ef.css.map": "/static/css/main.85b006ef.css.map",
+    "main.f45d51ca.js.map": "/static/js/main.f45d51ca.js.map"
   },
   "entrypoints": [
-    "static/css/main.a87c483f.css",
-    "static/js/main.7c090846.js"
+    "static/css/main.85b006ef.css",
+    "static/js/main.f45d51ca.js"
   ]
 }
