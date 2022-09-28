@@ -15,14 +15,14 @@ import '../index.css';
 
 const Skills = () => {
   return (
-    <Container className="px-4 py-4 my-2">
+    <Container className="col-xxl-8 px-4 py-4 my-2">
       <Row className="my-5">
         <h1 className="display-5 fw-bold lh-1 mb-3">skills</h1>
         <p className="fw-bold">|| these are the main technologies I've worked with</p>
       </Row>
-      <Row className="row-cols-1 row-cols-sm-2 row-cols-md-3">
+      <Row className="d-flex justify-content-center row-cols-1 row-cols-sm-2 row-cols-md-3">
         <Col>
-          <Card className="h-100">
+          <Card id="skills" className="mx-auto">
             <Card.Body>
               <Image className="img-fluid rounded mx-auto d-block" src={JavaScript} />
               <h5 className="d-flex justify-content-center pt-4">JAVASCRIPT</h5>
@@ -30,7 +30,7 @@ const Skills = () => {
           </Card>
         </Col>
         <Col>
-          <Card className="h-100">
+          <Card id="skills" className="mx-auto">
             <Card.Body>
               <Image className="img-fluid rounded mx-auto d-block" src={Html5} />
               <h5 className="d-flex justify-content-center pt-4">HTML</h5>
@@ -38,7 +38,7 @@ const Skills = () => {
           </Card>
         </Col>
         <Col>
-          <Card className="h-100">
+          <Card id="skills" className="mx-auto">
             <Card.Body>
               <Image className="img-fluid rounded mx-auto d-block" src={Css3} />
               <h5 className="d-flex justify-content-center pt-4">CSS</h5>
@@ -46,7 +46,7 @@ const Skills = () => {
           </Card>
         </Col>
         <Col>
-          <Card className="h-100">
+          <Card id="skills" className="mx-auto">
             <Card.Body>
               <Image className="img-fluid rounded mx-auto d-block" src={Github} />
               <h5 className="d-flex justify-content-center pt-4">GITHUB</h5>
@@ -54,7 +54,7 @@ const Skills = () => {
           </Card>
         </Col>
         <Col>
-          <Card className="h-100">
+          <Card id="skills" className="mx-auto">
             <Card.Body>
               <Image className="img-fluid rounded mx-auto d-block" src={NOde} />
               <h5 className="d-flex justify-content-center pt-4">NODE JS</h5>
@@ -62,7 +62,7 @@ const Skills = () => {
           </Card>
         </Col>
         <Col>
-          <Card className="h-100">
+          <Card id="skills" className="mx-auto">
             <Card.Body>
               <Image className="img-fluid rounded mx-auto d-block"  src={REact} />
               <h5 className="d-flex justify-content-center pt-4">REACT</h5>
