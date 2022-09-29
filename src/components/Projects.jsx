@@ -30,7 +30,7 @@ const Projects = () => {
               </Card.Text>
             </Card.Body>
             <Card.Footer className="gap-2 d-md-flex justify-content-md-start">
-              <Button href="https://starlit-crisp-4e857e.netlify.app" variant="outline-light btn-lg px-4">demo</Button>
+              <Button href="https://great-rgb-color-game.netlify.app/" variant="outline-light btn-lg px-4">demo</Button>
               <Button href="https://github.com/Joseph-Scott/Color-Game" variant="outline-light btn-lg px-4">github</Button>
             </Card.Footer>
           </Card>
@@ -46,7 +46,7 @@ const Projects = () => {
               </Card.Text>
             </Card.Body>
             <Card.Footer className="gap-2 d-md-flex justify-content-md-start">
-              <Button href="https://iridescent-conkies-8183cd.netlify.app" variant="outline-light btn-lg px-4">demo</Button>
+              <Button href="https://keeper-app-js.netlify.app/" variant="outline-light btn-lg px-4">demo</Button>
               <Button href="https://github.com/Joseph-Scott/Keeper-App" variant="outline-light btn-lg px-4">github</Button>
             </Card.Footer>
           </Card>
