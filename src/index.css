@@ -5,6 +5,7 @@ body {
 
 .nav-link {
   color: white;
+  font-weight: bold;
 }
 
 #headshot {
@@ -30,5 +31,33 @@ h5 {
   #headshot {
     max-width: 100%;
     height: auto;
+  }
+}
+
+@media only screen and (min-width: 481px) {
+  #headshot {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+@media only screen and (min-width: 769px) {
+  #headshot {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+@media only screen and (min-width: 1025px) {
+  #headshot {
+    max-width: 100%;
+    height: 700px;
+  }
+}
+
+@media only screen and (min-width: 1201px) {
+  #headshot {
+    max-width: 100%;
+    height: 700px;
   }
 }
