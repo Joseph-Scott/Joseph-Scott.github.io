@@ -20,7 +20,7 @@ const Skills = () => {
         <h1 className="display-5 fw-bold lh-1 mb-3">skills</h1>
         <p className="fw-bold">|| these are the main technologies I've worked with</p>
       </Row>
-      <Row className="d-flex justify-content-center row-cols-3 row-cols-sm-2 row-cols-md-3">
+      <Row className="d-flex justify-content-center row-cols-2 row-cols-sm-2 row-cols-md-3">
         <Col>
           <Card id="skills" className="mx-auto">
             <Card.Body>
