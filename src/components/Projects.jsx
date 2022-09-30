@@ -12,7 +12,7 @@ import '../index.css'
 
 const Projects = () => {
   return (
-    <Container className="col-xxl-8 py-5 my-4">
+    <Container className="col-xxl-8 py-5 my-4" id="scrollspyHeading3">
       <Row className="my-5">
         <h1 className="display-5 fw-bold lh-1 mb-3">projects</h1>
         <p className="fw-bold">|| this is some of my work</p>

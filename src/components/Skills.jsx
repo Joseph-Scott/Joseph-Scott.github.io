@@ -15,7 +15,7 @@ import '../index.css';
 
 const Skills = () => {
   return (
-    <Container className="col-xxl-8 px-4 py-4 my-2">
+    <Container className="col-xxl-8 px-4 py-4 my-2" id="scrollspyHeading2">
       <Row className="my-5">
         <h1 className="display-5 fw-bold lh-1 mb-3">skills</h1>
         <p className="fw-bold">|| these are the main technologies I've worked with</p>

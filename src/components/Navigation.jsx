@@ -11,8 +11,8 @@ const Navigation = () => {
         <Container>
           <Nav className="m-auto">
             <Nav.Link href="#scrollspyHeading1">home</Nav.Link>
-            <Nav.Link href="/skills">skills</Nav.Link>
-            <Nav.Link href="/projects">projects</Nav.Link>
+            <Nav.Link href="#scrollspyHeading2">skills</Nav.Link>
+            <Nav.Link href="#scrollspyHeading3">projects</Nav.Link>
           </Nav>
         </Container>
       </Navbar>

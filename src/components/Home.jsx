@@ -10,7 +10,7 @@ import '../index.css';
 const Home = () => {
   return (
     <Container className="col-xxl-8 px-4 py-5 my-5">
-      <Row className="align-items-center g-5 py-5">
+      <Row className="align-items-center g-5 py-5" id="scrollspyHeading1">
         <Col col={10} sm={4} lg={6} >
           <Image src={Headshot} className="rounded-4 d-block mx-lg-auto img-fluid" alt="Headshot" loading="lazy" id="headshot"/>
         </Col>
