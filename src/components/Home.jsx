@@ -4,7 +4,7 @@ import Image from 'react-bootstrap/Image';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import Headshot from '../img/casual-headshot(1).jpg';
+import Headshot from '../img/casual-headshot.jpg';
 import '../index.css';
 
 const Home = () => {
