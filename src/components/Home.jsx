@@ -31,7 +31,7 @@ const Home = () => {
           <p>Since DigitalCrafts I have had three beautiful kids with my wife, worked full-time, and navigated a years-long 
             pandemic (do you feel me?), all while looking for my first professional software development position. I am 
             constantly in front of a monitor working to deepen my front end skills and general MERN stack knowledge with JavaScript, 
-            HTML, CSS, NodeJS, JQuery, ExpressJS, MongoDB, and React with online tutorials and building my own projects.</p>
+            HTML, CSS, NodeJS, JQuery, ExpressJS, MongoDB, and React with online tutorials and by building my own projects.</p>
           <div className="d-grid gap-2 d-md-flex justify-content-md-start">
             <Button href="https://www.dropbox.com/s/8p7vhp7u48c3wrm/Joseph%20Scott%20Resume.pdf?dl=0" variant="outline-light btn-lg px-4">my resume</Button>
             <Button href="https://www.linkedin.com/in/j-b-scott/" variant="outline-light btn-lg px-4">
