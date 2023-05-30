@@ -21,7 +21,7 @@ const Home = () => {
             I have been working in the social services field for several years because I have a passion for understanding 
             the issues that people and families face, helping them to empower themselves to overcome obstacles and reach their 
             goals, and to ultimately change their lives for the better.</p>
-          <p>It's kind of a long story (I'd love to tell you about) but in 2018, after looking for a career change, speaking 
+          <p>It is kind of a long story (I would love to tell you about) but in 2018, after looking for a career change, speaking 
             with some software developer friends, and reading about programs that were teaching military veterans (like me) to code as a 
             second career, I began teaching myself to code via different online tutorial sites. The nostalgia I felt from using 
             HTML and CSS to trick out my Xanga in junior high and my MySpace in the early 2000's was real! I realized that I loved the 
